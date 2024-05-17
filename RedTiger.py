@@ -213,12 +213,12 @@ def Menu():
       page = page1
       Title("Page 1")
 
-   menu = f"""{popup_version}{white}                                                                                                  
+   menu = f"""{popup_version}{yellow}                                                                                                  
 
 
                              
-                                Comet 
-                    Comet                  Comet
+                                                          Comet 
+                                             Comet                  Comet
                                      
                                            {white}{github_tool}
                                                      {white}╔════════════╗
