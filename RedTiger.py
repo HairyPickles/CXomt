@@ -213,17 +213,13 @@ def Menu():
       page = page1
       Title("Page 1")
 
-   menu = f"""{popup_version}{red}                                                                                                  
-                             ██▀███  ▓█████ ▓█████▄    ▄▄▄█████▓ ██▓  ▄████ ▓█████  ██▀███
-                            ▓██ ▒ ██▒▓█   ▀ ▒██▀ ██▌   ▓  ██▒ ▓▒▓██▒ ██▒ ▀█▒▓█   ▀ ▓██ ▒ ██▒
-                            ▓██ ░▄█ ▒▒███   ░██   █▌   ▒ ▓██░ ▒░▒██▒▒██░▄▄▄░▒███   ▓██ ░▄█ ▒
-                            ▒██▀▀█▄  ▒▓█  ▄ ░▓█▄   ▌   ░ ▓██▓ ░ ░██░░▓█  ██▓▒▓█  ▄ ▒██▀▀█▄
-                            ░██▓ ▒██▒░▒████▒░▒████▓      ▒██▒ ░ ░██░░▒▓███▀▒░▒████▒░██▓ ▒██▒
-                            ░ ▒▓ ░▒▓░░░ ▒░ ░ ▒▒▓  ▒      ▒ ░░   ░▓   ░▒   ▒ ░░ ▒░ ░░ ▒▓ ░▒▓░
-                              ░▒ ░ ▒░ ░ ░  ░ ░ ▒  ▒        ░     ▒ ░  ░   ░  ░ ░  ░  ░▒ ░ ▒░
-                             ░░   ░    ░    ░ ░  ░      ░       ▒ ░░ ░   ░    ░     ░░   ░
-                              ░        ░  ░   ░                 ░        ░    ░  ░   ░      
+   menu = f"""{popup_version}{white}                                                                                                  
 
+
+                             
+                                Comet 
+                    Comet                  Comet
+                                     
                                            {white}{github_tool}
                                                      {white}╔════════════╗
                                                      {white}║ {red}Multi-Tool{white} ║
@@ -238,7 +234,7 @@ Slow(banner + Menu())
 while True:
    Clear()
    print(Menu())
-   choice = input(f"""{red}┌───({white}{username_pc}@redtiger{red})─[{white}~{red}]
+   choice = input(f"""{white}┌───({white}{username_pc}@redtiger{white})─[{white}~{white}]
 └──{white}$ {reset}""")
 
    if choice in ['1', '01']:
